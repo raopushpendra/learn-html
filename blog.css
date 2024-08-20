@@ -1,15 +1,17 @@
-h1{
+ h1{
     font-size: 50px;
     text-align: center;
     font-style:normal ;
     margin: 20px;
 }
-p{margin-bottom: 30px;
-    text-align: center;
+ .pg{margin-bottom: 30px;
+    text-align:center;
     color: grey;
     }
     nav{
         border-bottom: 10px black;
+        display: flex;
+        flex-direction: row;
     }
 a:link{ margin-left: 20px;
    margin-right: 10px ;
@@ -24,40 +26,59 @@ div p{margin-top: 30px;
     padding-left: 50px;
     text-align: left;
     color: rgb(191, 190, 190);
+    display: flex;
+    flex-direction:row;
 }
 div h2{margin-left: 30px;
     color: rgb(100, 100, 100);
     padding-left: 50px;
+    display: flex;
+    flex-direction: row;
 }
 .ab{padding-left: 50px;
     width:60%;
     margin:30px ;
     text-align: justify;
        line-height: 1.5;
-
+       display: flex;
+       flex-direction: column;
+     
 }
- aside{padding-left: 20px;
+  aside{padding-left: 20px;
     float:right;
     width:30%;
 height:30px;
 margin-left: 30px;
  }
- aside img{ margin-left: 20px;
+  aside img{ margin-left: 20px;
     border-radius:70%;
+    display: flex;
+    flex-direction: column;
+
 
      }
-     aside p{ text-align: left;
-padding-left: 0px;
+     #welcome{ text-align: left;
+padding-left: 20px;
         font-family:cursive;
-        line-height: 2;
-        width:300px;
+        line-height: 1;
+        width:50%;
         color: rgb(140, 137, 137);
+        display: flex;
+        flex-wrap: wrap;
     
      }
-   ul  h3{ word-spacing: 5px;
+ul  h3{ letter-spacing: 1px;
+    display: flex;
+    flex-direction: row;
 }
 .rr{ filter:grayscale(100%);
-
+    display: flex;
+    flex-direction: row;
 }
-    
-     
+.container{
+    display: flex;
+    flex-direction:column;
+    text-align: center;
+}
+
+
